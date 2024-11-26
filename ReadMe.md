@@ -36,28 +36,28 @@ cd selenium-automation-project
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/selenium-automation-project.git
-   cd selenium-automation-project
+   https://github.com/Monisha-23/Fitpeo-Assessment.git
+   ```
    
 ## Project Structure 
-selenium-automation-project/
-├── src/
-│   ├── main/
-│   │   └── resources/
-│   │       ├── driver/
-│   │       │   └── msedgedriver.exe  (WebDriver executable)
-│   │       └── features/
-│   │           └── main.feature  (Cucumber feature file defining test scenarios)
-│   ├── java/
-│   │   └── org/
-│   │       └── example/
-│   │           ├── stepDefinitions/
-│   │           │   └── Main.java  (Step definitions for the feature file)
-│   │           └── runner/
-│   │               └── MainRunner.java  (Test runner class with setup/teardown hooks)
-│   └── test/
-│
-└── pom.xml  (Maven build file for dependency management and project configuration)
+    selenium-automation-project/
+    ├── src/
+    │   ├── main/
+    │   │   └── resources/
+    │   │       ├── driver/
+    │   │       │   └── msedgedriver.exe  (WebDriver executable)
+    │   │       └── features/
+    │   │           └── main.feature  (Cucumber feature file defining test scenarios)
+    │   ├── java/
+    │   │   └── org/
+    │   │       └── example/
+    │   │           ├── stepDefinitions/
+    │   │           │   └── Main.java  (Step definitions for the feature file)
+    │   │           └── runner/
+    │   │               └── MainRunner.java  (Test runner class with setup/teardown hooks)
+    │   └── test/
+    │
+    └── pom.xml  (Maven build file for dependency management and project configuration)
 
 
 ## Running the Tests
